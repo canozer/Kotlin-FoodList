@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Recipe">
+
+
+    <EditText
+        android:id="@+id/FoodMaterialText"
+        android:layout_width="232dp"
+        android:layout_height="51dp"
+        android:layout_marginBottom="43dp"
+        android:ems="10"
+        android:hint="Enter Food Ingredients"
+        android:inputType="textPersonName"
+        app:layout_constraintBottom_toTopOf="@+id/button"
+        app:layout_constraintStart_toStartOf="@+id/FoodNameText"
+        app:layout_constraintTop_toBottomOf="@+id/FoodNameText" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="166dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="55dp"
+        android:layout_marginEnd="32dp"
+        android:layout_marginBottom="57dp"
+        android:onClick="gorselSec"
+        app:layout_constraintBottom_toTopOf="@+id/FoodNameText"
+        app:layout_constraintEnd_toEndOf="@+id/FoodNameText"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="SpeakableTextPresentCheck"
+        tools:src="@drawable/resim_ekle" />
+
+    <EditText
+        android:id="@+id/FoodNameText"
+        android:layout_width="232dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="64dp"
+        android:layout_marginBottom="37dp"
+        android:ems="10"
+        android:hint="Enter the Name of the Food"
+        android:inputType="textPersonName"
+        app:layout_constraintBottom_toTopOf="@+id/FoodMaterialText"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="97dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="54dp"
+        android:layout_marginBottom="145dp"
+        android:text="Saved"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/FoodMaterialText"
+        app:layout_constraintTop_toBottomOf="@+id/FoodMaterialText" />
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="../../../../layout/custom_preview.xml" value="0.240625" />
+        <entry key="app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.24166666666666667" />
+        <entry key="app/src/main/res/drawable/ic_launcher_background.xml" value="0.24166666666666667" />
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.8379155653332219" />
+        <entry key="app/src/main/res/layout/fragment_yemek_list.xml" value="0.45245559038662486" />
+        <entry key="app/src/main/res/layout/fragment_yemek_tarif.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/recycler_row.xml" value="0.22552083333333334" />
+        <entry key="app/src/main/res/menu/yemek_ekle.xml" value="0.1" />
+        <entry key="app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.24166666666666667" />
+        <entry key="app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.24166666666666667" />
+      </map>
+    </option>
+  </component>
+  <component name="ExternalStorageConfigurationManager" enabled="true" />
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_X" default="true" project-jdk-name="corretto-16" project-jdk-type="JavaSDK" />
+</project>
